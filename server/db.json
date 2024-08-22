@@ -1,0 +1,196 @@
+{
+  "monsterbash": [
+    {
+      "id": "1",
+      "name": "Dracula",
+      "origin_country": "Romania",
+      "species": "Vampire",
+      "weakness": "Sunlight",
+      "year_of_appearance": 1897
+    },
+    {
+      "id": "2",
+      "name": "Frankenstein's Monster",
+      "origin_country": "Germany",
+      "species": "Reanimated Corpse",
+      "weakness": "Fire",
+      "year_of_appearance": 1818
+    },
+    {
+      "id": "3",
+      "name": "The Mummy",
+      "origin_country": "Egypt",
+      "species": "Undead",
+      "weakness": "Fire",
+      "year_of_appearance": 1932
+    },
+    {
+      "id": "4",
+      "name": "Werewolf",
+      "origin_country": "Germany",
+      "species": "Lycanthrope",
+      "weakness": "Silver",
+      "year_of_appearance": 1941
+    },
+    {
+      "id": "5",
+      "name": "The Creature from the Black Lagoon",
+      "origin_country": "Brazil",
+      "species": "Amphibious Humanoid",
+      "weakness": "Dehydration",
+      "year_of_appearance": 1954
+    },
+    {
+      "id": "6",
+      "name": "The Invisible Man",
+      "origin_country": "United Kingdom",
+      "species": "Invisible Human",
+      "weakness": "Chemical Dependency",
+      "year_of_appearance": 1897
+    },
+    {
+      "id": "7",
+      "name": "Medusa",
+      "origin_country": "Greece",
+      "species": "Gorgon",
+      "weakness": "Reflection",
+      "year_of_appearance": "Mythology"
+    },
+    {
+      "id": "8",
+      "name": "Chupacabra",
+      "origin_country": "Puerto Rico",
+      "species": "Cryptid",
+      "weakness": "Bright Light",
+      "year_of_appearance": 1995
+    },
+    {
+      "id": "9",
+      "name": "Headless Horseman",
+      "origin_country": "United States",
+      "species": "Specter",
+      "weakness": "Decapitation",
+      "year_of_appearance": 1820
+    },
+    {
+      "id": "10",
+      "name": "Zombie",
+      "origin_country": "Haiti",
+      "species": "Undead",
+      "weakness": "Brain Destruction",
+      "year_of_appearance": 1968
+    },
+    {
+      "id": "11",
+      "name": "Jason Voorhees",
+      "origin_country": "United States",
+      "species": "Undead",
+      "weakness": "Water",
+      "year_of_appearance": 1980
+    },
+    {
+      "id": "12",
+      "name": "Freddy Krueger",
+      "origin_country": "United States",
+      "species": "Dream Demon",
+      "weakness": "Being Forgotten",
+      "year_of_appearance": 1984
+    },
+    {
+      "id": "13",
+      "name": "Michael Myers",
+      "origin_country": "United States",
+      "species": "Human",
+      "weakness": "Fire",
+      "year_of_appearance": 1978
+    },
+    {
+      "id": "14",
+      "name": "Leatherface",
+      "origin_country": "United States",
+      "species": "Human",
+      "weakness": "Fear",
+      "year_of_appearance": 1974
+    },
+    {
+      "id": "15",
+      "name": "Pennywise",
+      "origin_country": "United States",
+      "species": "Eldritch Entity",
+      "weakness": "Courage",
+      "year_of_appearance": 1986
+    },
+    {
+      "id": "16",
+      "name": "Ghostface",
+      "origin_country": "United States",
+      "species": "Human",
+      "weakness": "Overconfidence",
+      "year_of_appearance": 1996
+    },
+    {
+      "id": "17",
+      "name": "Jigsaw",
+      "origin_country": "United States",
+      "species": "Human",
+      "weakness": "Terminal Illness",
+      "year_of_appearance": 2004
+    },
+    {
+      "id": "18",
+      "name": "The Babadook",
+      "origin_country": "Australia",
+      "species": "Supernatural Entity",
+      "weakness": "Acceptance",
+      "year_of_appearance": 2014
+    },
+    {
+      "id": "19",
+      "name": "Annabelle",
+      "origin_country": "United States",
+      "species": "Possessed Doll",
+      "weakness": "Containment",
+      "year_of_appearance": 2013
+    },
+    {
+      "id": "20",
+      "name": "The Nun (Valak)",
+      "origin_country": "Romania",
+      "species": "Demon",
+      "weakness": "Faith",
+      "year_of_appearance": 2016
+    },
+    {
+      "id": "3eb9",
+      "name": "Charro Negro",
+      "origin_country": "Mexico",
+      "species": "Spectre",
+      "weakness": "Amulets",
+      "year_of_appearance": "1920"
+    },
+    {
+      "id": "b570",
+      "name": "Nessy",
+      "origin_country": "Scotland",
+      "species": "Reptile",
+      "weakness": "Dehydration",
+      "year_of_appearance": "1972"
+    },
+    {
+      "id": "1132",
+      "name": "Vecna",
+      "origin_country": "United States",
+      "species": "Interdimentional Human",
+      "weakness": "Music",
+      "year_of_appearance": "1959"
+    },
+    {
+      "id": "3f8d",
+      "name": "Wendigo",
+      "origin_country": "Canada",
+      "species": "Cryptid",
+      "weakness": "Deforestation",
+      "year_of_appearance": "1500"
+    }
+  ]
+}

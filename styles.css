@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Grenze Gotisch", serif;
+    background-image: url(./src/img/pattern_halloween-2_1_3_0-0_100_1__451e3e_051e3e_851e3f_651e3e.png);
+    background-repeat:repeat;
+    background-size: 600px;
+}
+
+.header-title{
+    justify-items: center;
+    align-items: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid #110c10;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #131313da;
+    color: #ccc;
+    font-weight: 500;
+    font-size: large;
+}
+
+td{
+    font-family: "Raleway";
+    color: #cac8ca;
+    background-color: #1e0f25da;
+}
+.delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#new-monster {
+    margin-top: 20px;
+}
+#new-monster input {
+    margin-bottom: 10px;
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 14px;
+}
+#new-monster button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+h1{
+    color: #cac8ca;
+    font-size:50px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header-title">
+        <h1>Monster Bash List</h1>
+    </div>
+    <table id="monster-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Origin Country</th>
+                <th>Species</th>
+                <th>Weakness</th>
+                <th>Year of Appearance</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="monster-tbody">
+            <!-- Monster rows will go here -->
+        </tbody>
+    </table>
+
+    <div id="new-monster">
+        <h3>Add New Monster</h3>
+        <input type="text" id="name" placeholder="Name"><br>
+        <input type="text" id="origin_country" placeholder="Origin Country"><br>
+        <input type="text" id="species" placeholder="Species"><br>
+        <input type="text" id="weakness" placeholder="Weakness"><br>
+        <input type="text" id="year_of_appearance" placeholder="Year of Appearance"><br>
+        <button onclick="createMonster()">Add Monster</button>
+    </div>
+
+    <script src="src/services.js"></script>
+</body>
+</html>
