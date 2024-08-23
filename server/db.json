@@ -161,7 +161,7 @@
       "year_of_appearance": 2016
     },
     {
-      "id": "3eb9",
+      "id": "21",
       "name": "Charro Negro",
       "origin_country": "Mexico",
       "species": "Spectre",
@@ -169,7 +169,7 @@
       "year_of_appearance": "1920"
     },
     {
-      "id": "b570",
+      "id": "22",
       "name": "Nessy",
       "origin_country": "Scotland",
       "species": "Reptile",
@@ -177,7 +177,7 @@
       "year_of_appearance": "1972"
     },
     {
-      "id": "1132",
+      "id": "23",
       "name": "Vecna",
       "origin_country": "United States",
       "species": "Interdimentional Human",
@@ -185,12 +185,20 @@
       "year_of_appearance": "1959"
     },
     {
-      "id": "3f8d",
+      "id": "24",
       "name": "Wendigo",
       "origin_country": "Canada",
       "species": "Cryptid",
       "weakness": "Deforestation",
       "year_of_appearance": "1500"
+    },
+    {
+      "id": "25",
+      "name": "Pazuzu",
+      "origin_country": "Afganistan",
+      "species": "Demon",
+      "weakness": "Faith",
+      "year_of_appearance": "666"
     }
   ]
 }
