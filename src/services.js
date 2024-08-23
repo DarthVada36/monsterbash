@@ -1,6 +1,6 @@
 const apiUrl = "http://localhost:3000/monsterbash";
 
-// READ METHOD: GET all monsters and log to console
+// READ METHOD: GET all monsters
 async function getMonsters() {
     try {
         const response = await fetch(apiUrl, {
@@ -8,7 +8,6 @@ async function getMonsters() {
             headers: {'Content-Type': 'application/json'}
         });
         const monsters = await response.json();
-        console.log("Monsters fetched from the API:", monsters);
         renderMonsters(monsters);
     } catch (error) {
         console.error("Error fetching monsters:", error);
@@ -34,14 +33,12 @@ async function createMonster() {
     const origin_country = document.getElementById('origin_country').value;
     const species = document.getElementById('species').value;
     const weakness = document.getElementById('weakness').value;
-    const year_of_appearance = document.getElementById('year_of_appearance').value;
 
     const newMonster = {
         name,
         origin_country,
         species,
-        weakness,
-        year_of_appearance
+        weakness
     };
 
     try {
@@ -56,24 +53,23 @@ async function createMonster() {
     }
 }
 
-// Function to render monsters in a table
+// Function to render monsters on the page
 function renderMonsters(monsters) {
-    const monsterTbody = document.getElementById('monster-tbody');
-    monsterTbody.innerHTML = '';
+    const monsterList = document.getElementById('monster-list');
+    monsterList.innerHTML = '';
     monsters.forEach(monster => {
-        const row = document.createElement('tr');
-        row.innerHTML = `
-            <td>${monster.id}</td>
-            <td>${monster.name}</td>
-            <td>${monster.origin_country}</td>
-            <td>${monster.species}</td>
-            <td>${monster.weakness}</td>
-            <td>${monster.year_of_appearance}</td>
-            <td><button class="delete-button" onclick="deleteMonster(${monster.id})">Delete</button></td>
+        const monsterDiv = document.createElement('div');
+        monsterDiv.className = 'monster';
+        monsterDiv.innerHTML = `
+            <strong>${monster.name}</strong><br>
+            Species: ${monster.species}<br>
+            Origin: ${monster.origin_country}<br>
+            Weakness: ${monster.weakness}<br>
+            <button onclick="deleteMonster(${monster.id})">Delete</button>
         `;
-        monsterTbody.appendChild(row);
+        monsterList.appendChild(monsterDiv);
     });
 }
 
-// Initial call to load monsters and log them in the console
-getMonsters();
+        // Initial call to load monsters
+        getMonsters();
