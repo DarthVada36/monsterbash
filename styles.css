@@ -8,6 +8,7 @@ body {
 }
 
 .header-title{
+    display: flexbox;
     justify-items: center;
     align-items: center;
 }
@@ -64,4 +65,13 @@ td{
 h1{
     color: #cac8ca;
     font-size:50px;
+}
+
+.img-title{
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+    margin-left: 40%;
+    align-items: center;
+    max-width: 250px;
 }
