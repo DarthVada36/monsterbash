@@ -16,24 +16,29 @@
     <div class="header-title">
         <img class="img-title" src="./src/img/large_monster-mash-title-33.png" alt="monstertitle">
     </div>
-    <table id="monster-table">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Origin Country</th>
-                <th>Species</th>
-                <th>Weakness</th>
-                <th>Year of Appearance</th>
-                <th>Action</th>
-            </tr>
-        </thead>
-        <tbody id="monster-tbody">
+    <div class="search">
+        <input type="text" id="searchBar" placeholder="Search for monsters...">
+    </div>
+    <div class="monstertable">
+        <table id="monster-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Origin Country</th>
+                    <th>Species</th>
+                    <th>Weakness</th>
+                    <th>Year of Appearance</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="monster-tbody">
             <!-- Monster rows will go here -->
-        </tbody>
-    </table>
+            </tbody>
+        </table>
+    </div>
 
-    <div id="new-monster">
+    <div class="newmonster" id="new-monster">
         <h3>Add New Monster</h3>
         <input type="text" id="name" placeholder="Name"><br>
         <input type="text" id="origin_country" placeholder="Origin Country"><br>

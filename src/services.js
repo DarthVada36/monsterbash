@@ -9,7 +9,22 @@ async function getMonsters() {
         });
         const monsters = await response.json();
         console.log("Monsters fetched from the API:", monsters);
+
+        // Render all monsters initially
         renderMonsters(monsters);
+
+        // Add event listener for the search bar
+        const searchBar = document.getElementById('searchBar');
+        searchBar.addEventListener('input', function(e) {
+            const searchString = e.target.value.toLowerCase();
+
+            const filteredMonsters = monsters.filter(monster =>
+                monster.name.toLowerCase().includes(searchString)
+            );
+
+            renderMonsters(filteredMonsters);  // Render the filtered list
+        });
+
     } catch (error) {
         console.error("Error fetching monsters:", error);
     }

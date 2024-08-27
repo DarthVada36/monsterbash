@@ -3,15 +3,60 @@
 body {
     font-family: "Grenze Gotisch", serif;
     background-image: url(./src/img/pattern_halloween-2_1_3_0-0_100_1__451e3e_051e3e_851e3f_651e3e.png);
-    background-repeat:repeat;
+    background-repeat: repeat;
     background-size: 600px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+/* Titulo */
+.img-title {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+/* Barra busqueda */
+.search {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
-.header-title{
-    display: flexbox;
-    justify-items: center;
-    align-items: center;
+.search input[type="text"] {
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 25px; 
+    border: 2px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
 }
+
+.search input[type="text"]:focus {
+    border-color: #66afe9;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6); 
+}
+
+.search input[type="text"]::placeholder {
+    color: #aaa;
+    opacity: 1;
+}
+
+.search input[type="text"]:hover {
+    border-color: #888;
+}
+
+
+/* Tabla */
+
+.monstertable{
+    margin: 16px;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -22,7 +67,7 @@ table, th, td {
 }
 th, td {
     padding: 10px;
-    text-align: left;
+    text-align: center;
 }
 th {
     background-color: #131313da;
@@ -35,43 +80,56 @@ td{
     font-family: "Raleway";
     color: #cac8ca;
     background-color: #1e0f25da;
+    font-size: small;
 }
 .delete-button {
-    background-color: #ff4d4d;
+    display: flex;
+    justify-content: center;
+    background-color: #c50b52;
     color: white;
+    margin: 2px;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
     border-radius: 5px;
 }
-#new-monster {
-    margin-top: 20px;
+
+.edit-button{
+    display:flex;
+    justify-items: center;
+    background-color: #ac73f1;
+    color: white;
+    margin-left: 10%;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
 }
+
+/* Form */
+
+#new-monster {
+    margin-top: 0px;
+    font-size: x-large;
+    color: #ece0fb;
+}
+
 #new-monster input {
     margin-bottom: 10px;
     width: calc(100% - 22px);
     padding: 10px;
     font-size: 14px;
+    border-radius: 9px;
 }
+
 #new-monster button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #4f44a4;
+    color: rgb(255, 120, 181);
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
+    margin-left: 40px;
+    margin-bottom: 40px;
 }
 
-h1{
-    color: #cac8ca;
-    font-size:50px;
-}
-
-.img-title{
-    display: flex;
-    justify-content: center;
-    margin-top: -70px;
-    margin-left: 40%;
-    align-items: center;
-    max-width: 250px;
-}
