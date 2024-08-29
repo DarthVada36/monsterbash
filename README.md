@@ -83,4 +83,6 @@ Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más 
 
 - [@DarthVada36](https://github.com/DarthVada36/monsterbash)
 
+## Patterns 
 
+https://pattern.monster/
