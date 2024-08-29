@@ -1,7 +1,6 @@
 # Monster Bash API
 
 Esta es la API de Monster Bash, una aplicación para gestionar monstruos. La API permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en una base de datos de monstruos.
-
 ## Requisitos Previos
 
 Antes de empezar, asegúrate de tener instalado lo siguiente:
@@ -20,19 +19,28 @@ Si aún no tienes Node.js instalado, sigue los pasos a continuación:
    ```bash
    node -v
 
+
 ### Configuración del Proyecto
 Clonar el repositorio:
 
 1. Clona este repositorio en tu máquina local usando Git.
 
+```bash
+git clone https://github.com/tu-usuario/monster-bash-api.git
+```
+
 Luego, navega al directorio del proyecto:
 
-git clone https://github.com/tu-usuario/monster-bash-api.git
-
-
+```bash
+cd monster-bash-api
+```
 2. Instalar las dependencias:
 
 Instala las dependencias necesarias usando npm.
+
+```bash
+npm install
+```
 
 Esto instalará todas las dependencias listadas en el archivo package.json.
 
@@ -40,7 +48,12 @@ Esto instalará todas las dependencias listadas en el archivo package.json.
 
 Una vez que las dependencias estén instaladas, puedes iniciar el servidor API usando el siguiente comando:
 
-Por defecto, el servidor se levantará en http://localhost:3000.
+```bash
+npm start
+
+```
+
+Por defecto, el servidor se levantará en http://localhost:3000. 
 
 4. Probar la API:
 
@@ -48,11 +61,26 @@ Puedes usar herramientas como Postman, curl, o el siguiente comando npm para pro
 
 Usar Postman: Postman es una interfaz gráfica que te permite probar fácilmente tus endpoints.
 
-Usar npm run api: Si has configurado un script en el archivo package.json para iniciar la API de manera específica, puedes correr el siguiente comando:
+Usar npm run api: Si has configurado un script en el archivo package.json para iniciar la API de manera específica, puedes correr el siguiente comando:  
 
+```bash
+npm run api
+
+```
 ### Contribuir
+
 Si deseas contribuir a este proyecto, por favor, realiza un fork del repositorio, crea una rama para tu feature o fix, y luego haz un pull request.
 
 
-###Licencia
+### Licencia
 Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+
+![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+
+
+## Authors
+
+- [@DarthVada36](https://github.com/DarthVada36/monsterbash)
+
+
